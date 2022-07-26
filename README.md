@@ -23,7 +23,7 @@ MIT License
 ## Tests
 Jest
 ## Credits
-GT-Bootcamp instructors
+Blood Sweat Tears
 
 ---
 
@@ -33,3 +33,5 @@ Contact me: <br/>
 <richardtran1029@gmail.com>
 
 ## DEMO LINKS
+https://watch.screencastify.com/v/TZ46LLCRtnCSn4pVFn63
+https://drive.google.com/file/d/1W1GOkIQuKoQkV0l0NGMdHQfwGtbiYybw/view
