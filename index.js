@@ -1,5 +1,6 @@
+// global variables
 const fs = require('fs');
-const inquirer = import('inquirer');
+const inquirer = require('inquirer');
 const Employee = require('./lib/Employee');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
@@ -8,6 +9,7 @@ const generatePage = require('./src/page-template');
 const writeFile = require('./utils/generate-site.js');
 const employeeList = [];
 
+// initial questions when first initializing application
 const managerQuestions = [
     {
         type: 'input',
@@ -59,6 +61,7 @@ const managerQuestions = [
     }
 ];
 
+// ask what next step would be after adding Manager information
 const addEmployee = () => {
     return inquirer.prompt([
         {
@@ -74,7 +77,8 @@ const addEmployee = () => {
         }
     ])
     .then(data => {
-       switch (data.nextStep) {
+        // go to next step depending on what the user input is
+        switch (data.nextStep) {
             case 'Add an engineer.':
                 addEngineer();
                 break;
