@@ -17,7 +17,7 @@ This app provides a quick and easy way to create a simple HTML site of a list of
 ## Installation
 In order to run this program you must have NPM initalized on your machine and also have Inquier, Jest, and Lib installed. Once those criteria are met, simply navigate to this file on a terminal and type "node index.js"
 ## Usage
-![Screenshot](./img/MakeMeReadMeSnapshot.JPG?raw=true "Screenshot")
+![Screenshot](./img/Capture.JPG?raw=true "Screenshot")
 ## License
 MIT License
 ## Tests
