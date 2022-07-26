@@ -1,0 +1,27 @@
+{
+  "name": "myteambuilder",
+  "version": "1.0.0",
+  "description": "Team Building App",
+  "main": "index.js",
+  "scripts": {
+    "test": "Jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtran1029/MyTeamBuilder.git"
+  },
+  "keywords": [
+    "team",
+    "builder"
+  ],
+  "author": "Richard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtran1029/MyTeamBuilder/issues"
+  },
+  "homepage": "https://github.com/rtran1029/MyTeamBuilder#readme",
+  "dependencies": {
+    "inquirer": "^9.0.2",
+    "jest": "^28.1.3"
+  }
+}
