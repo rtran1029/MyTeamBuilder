@@ -1,6 +1,6 @@
 # MyTeamBuilder
 ## Description
-This app provides a quick and easy way to create a simple HTML site of a list of team members collected through node.js using Inquirer. the user will be prompted to fillout different fields and with that input a simple sit will be genereated.
+This app provides a quick and easy way to create a simple HTML site of a list of team members collected through node.js using Inquirer. the user will be prompted to fillout different fields and with that input a simple site will be genereated.
 
 ---
 
