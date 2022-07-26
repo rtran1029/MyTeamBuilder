@@ -3,22 +3,22 @@ const Engineer = require('../lib/Engineer');
 
 test('gets Engineer GitHub username', () => {
     const data = {
-        name: "Joshua",
+        name: "Richard",
         id: 1,
-        email: "jmrendon48@gmail.com",
-        username: 'jmrendon48'
+        email: "richardtran@gmail.com",
+        username: 'rtran1029'
     };
     const engineer = new Engineer(data);
 
-    expect(engineer.username).toBe('jmrendon48');
+    expect(engineer.username).toBe('rtran1029');
 });
 
 test('gets Engineer role', () => {
     const data = {
-        name: "Joshua",
+        name: "Richard",
         id: 1,
-        email: "jmrendon48@gmail.com",
-        username: 'jmrendon48'
+        email: "richardtran@gmail.com",
+        username: 'rtran1029'
     };
     const engineer = new Engineer(data);
 

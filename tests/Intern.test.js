@@ -3,9 +3,9 @@ const Intern = require('../lib/Intern');
 
 test('gets Intern school', () => {
     const data = {
-        name: "Joshua",
+        name: "Richard",
         id: 1,
-        email: "jmrendon48@gmail.com",
+        email: "richardtran@gmail.com",
         school: 'UCLA Extension'
     };
     const intern = new Intern(data);
@@ -15,10 +15,10 @@ test('gets Intern school', () => {
 
 test('gets Intern role', () => {
     const data = {
-        name: "Joshua",
+        name: "Richard",
         id: 1,
-        email: "jmrendon48@gmail.com",
-        school: 'UCLA Extension'
+        email: "richardtran@gmail.com",
+        school: 'GT Bootcamp'
     };
     const intern = new Intern(data);
 

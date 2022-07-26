@@ -4,9 +4,9 @@ const Manager = require('../lib/Manager');
 
 test('gets Manager office number', () => {
     const data = {
-        name: "Joshua",
+        name: "Richard",
         id: 1,
-        email: "jmrendon48@gmail.com",
+        email: "richardtran@gmail.com",
         officeNumber: 1
     };
     const manager = new Manager(data);
@@ -16,9 +16,9 @@ test('gets Manager office number', () => {
 
 test('gets Manager role', () => {
     const data = {
-        name: "Joshua",
+        name: "Richard",
         id: 1,
-        email: "jmrendon48@gmail.com",
+        email: "richardtran@gmail.com",
         officeNumber: 1
     };
     const manager = new Manager(data);
